@@ -5,7 +5,7 @@ from typing import Union
 Number = Union[int, float]
 
 
-def add(a: Number, b: Number) -> Number:
+def add(a: float, b: float) -> float:
     """
     Return the sum of a and b.
 
@@ -16,11 +16,11 @@ def add(a: Number, b: Number) -> Number:
     Returns:
         The sum of a and b
     """
-    # TODO: Implement this function
+    return a+b
     pass
 
 
-def subtract(a: Number, b: Number) -> Number:
+def subtract(a: float, b: float) -> float:
     """
     Return the result of subtracting b from a.
 
@@ -31,11 +31,11 @@ def subtract(a: Number, b: Number) -> Number:
     Returns:
         The result of a - b
     """
-    # TODO: Implement this function
-    pass
+return a-b  
+pass
 
 
-def multiply(a: Number, b: Number) -> Number:
+def multiply(a: float, b: float) -> float:
     """
     Return the product of a and b.
 
@@ -46,11 +46,11 @@ def multiply(a: Number, b: Number) -> Number:
     Returns:
         The product of a and b
     """
-    # TODO: Implement this function
-    pass
+return a*b   
+pass
 
 
-def divide(a: Number, b: Number) -> Number:
+def divide(a: float, b: float) -> float:
     """
     Return the result of dividing a by b.
 
@@ -64,5 +64,5 @@ def divide(a: Number, b: Number) -> Number:
     Raises:
         ValueError: If b is 0
     """
-    # TODO: Implement this function
-    pass
+return a/b
+pass
